@@ -1,0 +1,54 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 216, 183);
+}
+#contentbar {
+    background-color:orange;
+    height: 50px;
+    border: solid orange;
+    
+}
+#rightside {
+    float: right;
+    word-spacing: 5px;
+    margin-top: 12px;
+    color: white;
+    margin-right: 15px;
+}
+#leftside {
+    float:left;
+    word-spacing: 5px;
+    margin-top: 12px;
+    color: white;
+    margin-left: 15px;
+}
+#boxcontainers {
+    display: inline-block;
+}
+
+.boxes {
+    padding:20px;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+    float:left;
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    height: 500px;
+    border: solid orange;
+    border-radius: 5px;
+    margin-left: 110px;
+
+}
+.boxes p {
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 15px;
+}
+input {
+    width: 100%;
+    height: 30px;
+    background-color:orange;
+}
