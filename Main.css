@@ -2,6 +2,7 @@ html,body {
     margin: 0;
     padding: 0;
     background-color: rgb(241, 216, 183);
+    height: 100%;
 }
 #contentbar {
     background-color:orange;
@@ -10,45 +11,53 @@ html,body {
     
 }
 #rightside {
-    float: right;
+   display: flex;
     word-spacing: 5px;
-    margin-top: 12px;
     color: white;
     margin-right: 15px;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    margin-top: -20px;
 }
 #leftside {
-    float:left;
+    display: flex;
     word-spacing: 5px;
     margin-top: 12px;
     color: white;
     margin-left: 15px;
+    justify-content: flex-start;
 }
-#boxcontainers {
-    display: inline-block;
+ul#flex-container {
+  list-style-type: none;
+  margin:0; padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  
+  
 }
-
-.boxes {
-    padding:20px;
-    background-color: white;
-    margin-right: 10px;
-    margin-top: 20px;
-    float:left;
-    font-size: 30px;
-    font-weight: bold;
-    width: 200px;
-    height: 500px;
+ul li{
+   
+    height:400px;
+    padding-top: 45px;
+    margin-left: 5px;
+    width: 305px;
     border: solid orange;
     border-radius: 5px;
-    margin-left: 110px;
-
+   
+    background-color: white;
 }
-.boxes p {
-    font-size: 25px;
-    font-weight: normal;
-    margin-left: 15px;
+h1 {
+    margin-left:
+}
+ul h1 {
+    margin-left: 10px;
 }
 input {
+    text-align: center;
     width: 100%;
-    height: 30px;
-    background-color:orange;
+   margin-top:260px;
+   background-color: orange;
+   color: white;
 }
